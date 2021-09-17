@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/tommyliu313/lineinthecloudtesting#readme",
   "dependencies": {
+    "emmet": "^2.3.4",
     "pug": "^3.0.2"
   }
 }
