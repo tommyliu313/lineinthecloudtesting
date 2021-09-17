@@ -1,0 +1,19 @@
+{
+  "name": "lineinthecloudtesting",
+  "version": "1.0.0",
+  "description": "___        ______     ____ _                 _  ___  \r         / \\ \\      / / ___|   / ___| | ___  _   _  __| |/ _ \\ \r        / _ \\ \\ /\\ / /\\___ \\  | |   | |/ _ \\| | | |/ _` | (_) |\r       / ___ \\ V  V /  ___) | | |___| | (_) | |_| | (_| |\\__, |\r      /_/   \\_\\_/\\_/  |____/   \\____|_|\\___/ \\__,_|\\__,_|  /_/ \r  -----------------------------------------------------------------",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tommyliu313/lineinthecloudtesting.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tommyliu313/lineinthecloudtesting/issues"
+  },
+  "homepage": "https://github.com/tommyliu313/lineinthecloudtesting#readme"
+}
