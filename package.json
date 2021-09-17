@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/tommyliu313/lineinthecloudtesting/issues"
   },
-  "homepage": "https://github.com/tommyliu313/lineinthecloudtesting#readme"
+  "homepage": "https://github.com/tommyliu313/lineinthecloudtesting#readme",
+  "dependencies": {
+    "pug": "^3.0.2"
+  }
 }
