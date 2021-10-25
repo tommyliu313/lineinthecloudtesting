@@ -1,15 +1,5 @@
-         ___        ______     ____ _                 _  ___  
-        / \ \      / / ___|   / ___| | ___  _   _  __| |/ _ \ 
-       / _ \ \ /\ / /\___ \  | |   | |/ _ \| | | |/ _` | (_) |
-      / ___ \ V  V /  ___) | | |___| | (_) | |_| | (_| |\__, |
-     /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
- ----------------------------------------------------------------- 
+Figma (UI Design) Invite Link:
+https://www.figma.com/team_invite/redeem/DbkGNNPWrCpMF2pX0K3e0H 
 
-
-Hi there! Welcome to AWS Cloud9!
-
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
-
-Happy coding!
-# lineinthecloud.github.io
+Postman API Testing Invite Link:
+https://app.getpostman.com/join-team?invite_code=021b25b0a59bd4b900fc25d028423e82&ws=75bbed94-c4b4-4687-842c-3aabf3d2a3a2
