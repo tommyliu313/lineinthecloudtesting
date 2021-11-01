@@ -31,5 +31,19 @@ def db_drop():
     print('Drop a database!')
 
 
+class Restaurant(db.Model):
+    __tablename__ = 'Restaurant'
+
+
+class Eater(db.Model):
+    __tablename__ = 'Eater'
+    eater_id = Column(Integer, primary_key=True)
+    eater_name = Column(String)
+
+
+class Staff(db.Model):
+    __tablename__ = 'Staff'
+
+
 if __name__ == '__main__':
     app.run()
