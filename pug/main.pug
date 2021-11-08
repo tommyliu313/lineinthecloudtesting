@@ -1,34 +1,39 @@
 doctype html
-body
-    link(href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css")
+html
+  head
+  body
+    link(href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css' rel='stylesheet' type='text/css')
+    link(href='./style/sass/main.sass' type='text/sass')
     nav.navbar.has-background-grey
-    div.navbar-brand
-    div.navbar-item.image.is-128x128
-    a.navbar-burger.burger(data-target="navMenu")
-        span 
-        span 
-        span
-    div#navMenu.navbar-menu <!--navbar item-->
-    div.navbar-start
-        a.navbar-item.has-text-white(href="") Horoscope
-        a.navbar-item.has-text-white(href="") Astrology
-        div.dropdown.is.active.navbar-item
-        div.dropdown-trigger
-            button.button.has-background-white-bis
-            span 1234565432
-        div.dropdown-menu#dropdown-menu(role="menu")   
-        a.navbar-item.has-text-white(href="") Predictions
-        a.navbar-item.has-text-white(href="") Occult
-    div.navbar-end
-    div.navbar-item
-        div.buttons
-        a.button.is-danger
-            strong Register
-        a.button.is-outlined.is-success
-            strong Login
-    //Content
-
-
-    //Footer
-
-    //Container
+      .navbar-brand
+        .navbar-item.image.is-128x128
+          a.navbar-burger.burger(data-target='navMenu')
+            span  
+            span  
+            span
+        #navMenu.navbar-menu
+          // navbar item
+        .navbar-start
+          a.navbar-item.has-text-white(href='') Horoscope
+          a.navbar-item.has-text-white(href='') Astrology
+          .dropdown.is.active.navbar-item
+            .dropdown-trigger
+              button.button.has-background-white-bis
+                span 1234565432
+            #dropdown-menu.dropdown-menu(role='menu')   
+          a.navbar-item.has-text-white(href='') Predictions
+          a.navbar-item.has-text-white(href='') Occult
+      .navbar-end
+        .navbar-item
+          .buttons
+            a.button.is-danger
+              strong Register
+            a.button.is-outlined.is-success
+              strong Login
+    // Content
+    // Footer
+    //
+      Container
+      //Content
+      //Footer
+      //Container
