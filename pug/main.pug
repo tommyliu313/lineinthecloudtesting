@@ -1,0 +1,34 @@
+doctype html
+body
+ Navbar
+    nav.navbar.has-background-grey
+    div.navbar-brand
+    div.navbar-item.image.is-128x128
+    a.navbar-burger.burger(data-target="navMenu")
+        span 
+        span 
+        span
+    div#navMenu.navbar-menu <!--navbar item-->
+    div.navbar-start
+        a.navbar-item.has-text-white(href="") Horoscope
+        a.navbar-item.has-text-white(href="") Astrology
+        div.dropdown.is.active.navbar-item
+        div.dropdown-trigger
+            button.button.has-background-white-bis
+            span 1234565432
+        div.dropdown-menu#dropdown-menu(role="menu")   
+        a.navbar-item.has-text-white(href="") Predictions
+        a.navbar-item.has-text-white(href="") Occult
+    div.navbar-end
+    div.navbar-item
+        div.buttons
+        a.button.is-danger
+            strong Register
+        a.button.is-outlined.is-success
+            strong Login
+    //Content
+
+
+    //Footer
+
+    //Container
