@@ -39,6 +39,7 @@ class Eater(db.Model):
     __tablename__ = 'Eater'
     eater_id = Column(Integer, primary_key=True)
     eater_name = Column(String)
+    people_invited_count= Column(Integer)
 
 
 class Staff(db.Model):
