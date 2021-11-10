@@ -1,18 +1,22 @@
 doctype html
-html
+html(lang='en')
   head
+    meta(charset='UTF-8')
+    title CodePen - A Pen by tommyliuhk313
+    link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css')
+    link(rel='stylesheet' href='./style.css')
   body
-    link(href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css' rel='stylesheet' type='text/css')
-    link(href='../../style/sass/main.sass' type='text/sass')
+    // partial:index.partial.html
+    // Navbar
     nav.navbar.has-background-grey
       .navbar-brand
         .navbar-item.image.is-128x128
-          a.navbar-burger.burger(data-target='navMenu')
-            span  
-            span  
-            span
-        #navMenu.navbar-menu
-          // navbar item
+        a.navbar-burger.burger(data-target='navMenu')
+          span  
+          span  
+          span
+      #navMenu.navbar-menu
+        // navbar item
         .navbar-start
           a.navbar-item.has-text-white(href='') Horoscope
           a.navbar-item.has-text-white(href='') Astrology
@@ -23,17 +27,14 @@ html
             #dropdown-menu.dropdown-menu(role='menu')   
           a.navbar-item.has-text-white(href='') Predictions
           a.navbar-item.has-text-white(href='') Occult
-      .navbar-end
-        .navbar-item
-          .buttons
-            a.button.is-danger
-              strong Register
-            a.button.is-outlined.is-success
-              strong Login
+        .navbar-end
+          .navbar-item
+            .buttons
+              a.button.is-danger
+                strong Register
+              a.button.is-outlined.is-success
+                strong Login
     // Content
     // Footer
-    //
-      Container
-      //Content
-      //Footer
-      //Container
+    // Container
+    // partial

@@ -8,3 +8,7 @@ Linkedin Learning (Resource):
 https://www.linkedin.com/learning-login/?authUUID=bYROlB41RVmsRlTdZPxnZg%3D%3D&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fme%2Fin-progress
 
 
+npm install pug
+pug -w [pug數據位置] -o [目的地] -P
+npm install sass
+sass [pug數據位置] [目的地]
