@@ -1,3 +1,4 @@
+# What we need to import
 from flask import Flask, jsonify, request
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import Column, Integer, String, Float
@@ -18,7 +19,7 @@ mail = Mail(app)
 def hello_world():  # put application's code here
     return 'Hello World!'
 
-
+# Database initialization
 @app.cli.command('db_create')
 def db_create():
     db.create_all()
@@ -30,6 +31,7 @@ def db_drop():
     db.drop_all()
     print('Drop a database!')
 
+# Create a relation
 
 class Restaurant(db.Model):
     __tablename__ = 'Restaurant'
@@ -45,6 +47,9 @@ class Eater(db.Model):
 class Staff(db.Model):
     __tablename__ = 'Staff'
 
+# Error Handling
+
+# Return a 404 page
 
 if __name__ == '__main__':
     app.run()
