@@ -31,7 +31,7 @@ def db_drop():
     db.drop_all()
     print('Drop a database!')
 
-# Create a relation
+# Create a relationship
 
 class Restaurant(db.Model):
     __tablename__ = 'Restaurant'
@@ -50,6 +50,14 @@ class Staff(db.Model):
 # Error Handling
 
 # Return a 404 page
+@app.errorhandler(404)
+def not_found(err):
+    return render_template("404.html")
+
+# Return a 503 error
+@app.errorhandler(503)
+def service_unavailable(err):
+    return('503 Service Unavailable.')
 
 if __name__ == '__main__':
     app.run()

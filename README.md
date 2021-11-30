@@ -12,3 +12,5 @@ npm install pug
 pug -w [pug數據位置] -o [目的地] -P
 npm install sass
 sass [pug數據位置] [目的地]
+
+常用
