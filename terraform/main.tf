@@ -13,3 +13,15 @@ provider "aws"{
   region = "var.aws_region"
 
 }
+
+# NETWORKING #
+resource "aws_vpc" {
+  cidr_block = ""
+  enable_dns_hostnames = "true"
+}
+
+#Resource
+resource "aws_instance"{
+ ami = nonsensitive(data.aws_ssm_)
+
+}
