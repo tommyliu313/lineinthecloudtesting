@@ -21,3 +21,14 @@ Terraform 分六part: Variable/Provider/Data/Resource/Outuput/Provisioner
     Pluralsight:
     Terraform- Get Started
     AWS Cognito
+我們將會使用Agile Software Development。
+
+第一階段: 網站設計
+我們會用Figma去建立基本的網站格局設計，然後用HTMLCSSJS做出來。
+我們期望在github上能預見網站落成。
+
+第二階段: 登入登出系統
+透過<a href="https://app.pluralsight.com/library/courses/implementing-user-access-authentication-amazon-cognito">課程</a>，我們將會學曉套用AWS Cognito去完成登入登出系統。
+
+第三階段: AWS LEX聊天機械人對話
+透過<a href="https://www.linkedin.com/learning/building-intelligent-chatbots-on-aws">課程</a>，我們將會建立一對一的預訂
