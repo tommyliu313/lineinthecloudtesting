@@ -34,7 +34,7 @@ Terraform 分六part: Variable/Provider/Data/Resource/Outuput/Provisioner
 透過<a href="https://www.linkedin.com/learning/building-intelligent-chatbots-on-aws">課程</a>，我們將會建立一對一的預訂系統。
 
 第四階段: 地圖定位
-透過<a href="https://app.pluralsight.com/library/courses/working-geolocation-html/table-of-contents"></a>課程，可以設定一個讓人們了解行走路線及身在何方。
+透過<a href="https://app.pluralsight.com/library/courses/working-geolocation-html/table-of-contents">課程</a>，可以設定一個讓人們了解行走路線及身在何方。
 
 第五階段: 編程
 主要涉及二維碼以及有求必應。
