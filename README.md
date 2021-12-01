@@ -43,3 +43,5 @@ Terraform 分六part: Variable/Provider/Data/Resource/Outuput/Provisioner
 人們在餐廳排隊時少不免會排隊，難免會感到不耐煩及鼓譟。針對有關問題，嘗試製造一個系統，讓人們除去站著排隊的問題，可以用手機或網站知道目前輪候的人數到底有多少，有助決策。當他們的輪候籌有了定論，隨即安排入座。他們可以即時取消等候，而選擇等候其他餐廳。同時，他們可以預先報定人數，例如中餐廳般。
 
 我地可能需要:
+Amazon Cognito/Lex/Amplify
+
