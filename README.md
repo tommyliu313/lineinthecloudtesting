@@ -13,4 +13,11 @@ pug -w [pug數據位置] -o [目的地] -P
 npm install sass
 sass [pug數據位置] [目的地]
 
-常用
+Terraform 分六part: Variable/Provider/Data/Resource/Outuput/Provisioner
+
+資料於2021-12-01更新
+
+目前要上的課程:
+    Pluralsight:
+    Terraform- Get Started
+    AWS Cognito
