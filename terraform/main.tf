@@ -25,3 +25,13 @@ resource "aws_instance"{
  ami = nonsensitive(data.aws_ssm_)
 
 }
+
+# CONFIG #
+resource "aws_iam_role" ""{
+ name = "${var.bucket_name}"
+ assume_role_policy = <<EOF
+ {
+   
+ }
+
+}
