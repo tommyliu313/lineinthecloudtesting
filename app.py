@@ -3,6 +3,7 @@ from flask import Flask, jsonify, request
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import Column, Integer, String, Float
 import os
+import sqlite3
 from flask_marshmallow import Marshmallow
 from flask_jwt_extended import JWTManager, jwt_required, create_access_token
 from flask_mail import Mail, Message
@@ -61,7 +62,13 @@ def service_unavailable(err):
 
 # Convert to JSON
 def changetojson():
-    with open():
+    return
+
+# Automatically DB action
+def createdb(name,):
+    return 
+
+
 
 if __name__ == '__main__':
     app.run()

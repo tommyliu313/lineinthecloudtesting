@@ -45,3 +45,8 @@ Terraform 分六part: Variable/Provider/Data/Resource/Outuput/Provisioner
 我地可能需要:
 Amazon Cognito/Lex/Amplify
 
+Installed dependencies:
+aws-cognito
+sweetalert2
+aws-amplify
+
