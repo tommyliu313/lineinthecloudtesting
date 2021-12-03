@@ -69,6 +69,18 @@ def createdb(name,):
     return 
 
 
+# Information loaded into json format file
+@app.route('x',methods=['GET','POST'])
+def FunctionName(args):
+    if request.method == 'POST':
+
+        if os.path.exists('.json'):
+            with open('.json') as :
+                = json.load()
+
+   
+    
+
 
 if __name__ == '__main__':
     app.run()
