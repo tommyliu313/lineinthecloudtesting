@@ -6,6 +6,18 @@ variable "aws-region"{
     default = ""
 }
 
+variable "region_1"{
+  type = "string"
+  default = "us-east-1"
+}
+
+variable "region_2"{
+
+}
+variable "vpc_cidr_range_east"{
+  type = "string"
+}
+
 #Provider
 provider "aws"{
   access_key = "var.access_key"

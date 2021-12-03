@@ -46,7 +46,13 @@ Terraform 分六part: Variable/Provider/Data/Resource/Outuput/Provisioner
 Amazon Cognito/Lex/Amplify
 
 Installed dependencies:
-aws-cognito
-sweetalert2
-aws-amplify
+aws-cognito/sweetalert2/aws-amplify
+
+EDIT AWS架構圖: https://online.visual-paradigm.com/share.jsp?id=313331343836332d3330
+之後用TERRAFORM轉化出來
+
+如果你想引用flutter好用的外部套件，flutter : flutter pub add [package_name]
+
+安裝: Android Studio
+
 
