@@ -1,5 +1,5 @@
 # What we need to import
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, render_template
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import Column, Integer, String, Float
 import os
@@ -7,6 +7,9 @@ import sqlite3
 from flask_marshmallow import Marshmallow
 from flask_jwt_extended import JWTManager, jwt_required, create_access_token
 from flask_mail import Mail, Message
+from flask_wtf import FlaskForm
+from wtforms import StringField, PasswordField , BooleanField , SubmitField
+from wtforms.validators import DataRequired
 
 app = Flask(__name__)
 
