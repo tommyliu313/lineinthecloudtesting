@@ -1,0 +1,15 @@
+//Success Message
+Swal.fire({
+  
+
+})
+
+// Fail Messages
+Swal.fire({
+  title: ''
+})
+
+// Register
+Swal.fire({
+
+})

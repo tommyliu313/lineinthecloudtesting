@@ -1,29 +1,19 @@
 import Swal from 'sweetalert2'
 import {CognitoUser, ISignUpResult} from 'amazon-cognito-identity-js'
 import { Auth } from 'aws-amplify'
-
+// Setup the configuration
 Auth.configure({
     userPoolId:'',
     userPoolWebClientId:'',
 })
 
 function onResendConfirmationCode(){
- Auth.resend;
+ Auth.resend();
 
 }
 
-
-async function Swal_Success_Button(){
-return Swal.fire({
-title:'You are successfully login now.',
-'success'
-
-});
-}
-
-const Swal_Fail_Button = {
-
-   
-})
-
+function onHostedUISignIn(){
+    Auth.federatedSignIn().then(result =>{
+        
+    })
 }
