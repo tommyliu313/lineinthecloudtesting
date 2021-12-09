@@ -20,6 +20,7 @@
     "amazon-cognito-identity-js": "^5.2.3",
     "aws-amplify": "^4.3.8",
     "emmet": "^2.3.4",
+    "jquery": "^3.6.0",
     "sass": "^1.41.1",
     "sass2css": "0.0.1",
     "sweetalert2": "^11.2.1"
