@@ -102,4 +102,9 @@ if __name__ == '__main__':
 
 #Page Navigation
 
+#Console test/ HTTP Testing status
+def itisok():
+    return jsonify(message =''),200 # output msg , relative status code
+
+
 //
