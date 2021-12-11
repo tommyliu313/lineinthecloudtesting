@@ -71,6 +71,10 @@ def changetojson():
 def createdb(name,):
     return 
 
+# Cookies Settings
+def create_cookies():
+
+def delete_cookies():    
 
 # Information loaded into json format file
 @app.route('x',methods=['GET','POST'])

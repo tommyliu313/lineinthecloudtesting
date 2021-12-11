@@ -6,7 +6,9 @@ Swal.fire({
 
 // Fail Messages
 Swal.fire({
-  title: ''
+  position: 'top-end',
+  icon: 'success',
+  title: '你已經成功登入<br>You have successfully logged in.'
 })
 
 // Register
