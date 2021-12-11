@@ -76,6 +76,9 @@ def create_cookies():
 
 def delete_cookies():    
 
+#Data Import
+
+
 # Information loaded into json format file
 @app.route('x',methods=['GET','POST'])
 def FunctionName(args):
@@ -86,7 +89,7 @@ def FunctionName(args):
                 = json.load()
 
    
-    
+#HTTP Redirection    
 
 
 if __name__ == '__main__':
