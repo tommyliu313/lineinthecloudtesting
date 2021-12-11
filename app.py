@@ -72,8 +72,10 @@ def createdb(name,):
     return 
 
 # Cookies Settings
+# create
 def create_cookies():
 
+#delete
 def delete_cookies():    
 
 #Data Import
@@ -94,5 +96,10 @@ def FunctionName(args):
 
 if __name__ == '__main__':
     app.run()
+
+#Input
+
+
+#Page Navigation
 
 //
