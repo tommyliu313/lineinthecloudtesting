@@ -14,8 +14,15 @@ variable "region_1"{
 variable "region_2"{
 
 }
+
+
 variable "vpc_cidr_range_east"{
   type = "string"
+}
+
+variable "subnet"{
+  type = list(string)
+  default = []
 }
 
 #Provider
