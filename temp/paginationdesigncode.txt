@@ -1,0 +1,4 @@
+{% macro pagination_widget(pagination,endpoint)%}
+ul.pagination>li.disabled[{%if not pagination.has_prev %} {% endif %}]>a[href="{% if pagination%}"]
+
+@app.route('/',methods=['GET','POST'])
