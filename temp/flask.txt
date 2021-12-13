@@ -1,0 +1,7 @@
+//pagination
+{% macro pagination_widget(pagination,endpoint)%}
+{% if pagination.has_prev %}
+{% if not pagination.has_prev %}
+
+<ul class="pagination">
+<li{% if not pagination.has_prev %}>

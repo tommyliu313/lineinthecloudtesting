@@ -74,7 +74,7 @@ def createdb(name,):
 # Cookies Settings
 # create
 def create_cookies():
-
+  i = setcookie(name)
 #delete
 def delete_cookies():    
 
@@ -105,6 +105,7 @@ if __name__ == '__main__':
 #Console test/ HTTP Testing status
 def itisok():
     return jsonify(message =''),200 # output msg , relative status code
+    
 
 
 //
