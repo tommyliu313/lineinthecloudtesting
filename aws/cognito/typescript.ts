@@ -17,3 +17,13 @@ function onHostedUISignIn(){
         
     })
 }
+
+function onUserConfirmation(){}
+
+function onSignUp(){
+    let userinfo = {
+        username: document.getElementById("signup-email").value,
+        password: document.getElementById("signup-password").value,
+        
+    }
+}

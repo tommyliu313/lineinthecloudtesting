@@ -101,6 +101,8 @@ if __name__ == '__main__':
 
 
 #Page Navigation
+def navgation():
+    return
 
 #Console test/ HTTP Testing status
 def itisok():
