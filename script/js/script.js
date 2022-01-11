@@ -38,14 +38,15 @@ new swal({
     if (!login && !password) {
       Swal.showValidationMessage(`請你輸入電子郵件及密碼<br>Please enter login and password`)
     }
-    return { login: login, password: password }
   }
 }),
   function(isConfirm){
     if(isConfirm){
 
     }
-    else{}
+    else{
+    
+    }
   }
 //.then((result) => {
   //Swal.fire(`
