@@ -8,7 +8,8 @@ Auth.configure({
     userPoolWebClientId:'57a80fik1473v2up522vav7br2',
 })
 
-var cureentUserNAme: 
+currentUserName = userData.username;
+if
 
 function onResendConfirmationCode(){
  Auth.resend();
@@ -23,7 +24,10 @@ function onHostedUISignIn(){
 
 function onUserConfirmation(){}
 
-function onResendConfirmationCode(){
-    Auth.resendSignUp)
+function onSignUp(){
+    let userinfo = {
+        username: document.getElementById("login").value,
+        password: document.getElementById("password").value,
+        
+    }
 }
-
