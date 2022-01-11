@@ -1,3 +1,5 @@
+const { Auth } = require("aws-amplify");
+
 /*原始設定*/
 var formatword= "<></>";
 
@@ -38,12 +40,19 @@ new swal({
     }
     return { login: login, password: password }
   }
-}).then((result) => {
+}),
+  function(isConfirm){
+    if(isConfirm){
+
+    }
+    else{}
+  }
+//.then((result) => {
   //Swal.fire(`
   //  Login: ${result.value.login}
   //  Password: ${result.value.password}
   //`.trim())
-})
+//})
 })}
 
 /*外部資源連結*/
@@ -80,24 +89,37 @@ function Register(){
   document.getElementById("register").addEventListener('click',function(){
 new swal({
   title: 'Register Form',
-  html: `<form method="POST" required>`+`<input type="text" id="login" class="swal2-input" placeholder="Username">
+  html: `<form method="POST" required>`+
+  `<input type="text" id="login" class="swal2-input" placeholder="Username">+
+  <input type="email" id="email" class="swal2-input">
   <input type="password" id="password" class="swal2-input" placeholder="Password"><input type="password" id="password" class="swal2-input" placeholder="Password">`+`</form>`+`<button class="swal2-input" onclick="turnon()">`+`<i class="far fa-eye">`+`</i>`+`</button>`,
   confirmButtonText: 'Sign in',
   focusConfirm: false,
   preConfirm: () => {
-    const login = Swal.getPopup().querySelector('#login').value
-    const password = Swal.getPopup().querySelector('#password').value
+    const regemail = Swal.getPopup().querySelector('#email').value,
+    const reglogin = Swal.getPopup().querySelector('#login').value
+    const regpassword = Swal.getPopup().querySelector('#password').value
     if (!login){Swal.showValidationMessage(`請你輸入電子郵件<br>Please enter email`)}
     if (!password){Swal.showValidationMessage(`請你輸入密碼<br>Please enter password`)}
     if (!login && !password) {
       Swal.showValidationMessage(`請你輸入電子郵件及密碼<br>Please enter login and password`)
     }
-    return { login: login, password: password }
+    else{
+      Auth.signUp({
+        username: reglogin,
+        password: regpassword,
+        attributes:{
+          email: regemail
+        }
+      }).then((result: ISignUpResult) => {
+       if(!result.userConfirmed){}
+      })
+    }
   }
-}).then((result) => {
+})//.then((result:iSignUpResult) => {
   //Swal.fire(`
   //  Login: ${result.value.login}
   //  Password: ${result.value.password}
   //`.trim())
-})
+//})
 })}
