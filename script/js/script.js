@@ -25,7 +25,7 @@ function Login(){
 new swal({
   title: 'Login Form',
   html: `<form method="POST" required>`+`<input type="text" id="login" class="swal2-input" placeholder="Username">
-  <input type="password" id="password" class="swal2-input" placeholder="Password">`+`</form>`+`<button class="swal2-input" onclick="turnon()">`+`<i class="far fa-eye">`+`</i>`+`</button>`+`<div>`+`<button class="swal2-input">`+`<i class="fab fa-google">`+`</i>`+`</button>`+`<button class="swal2-input">`+`<i class="fab fa-facebook-square">`+`</i>`+`</button>`+`</div>`,
+  <input type="password" id="password" class="swal2-input" placeholder="Password">`+`<button class="swal2-input">`+`<p>Forget Password?</p>`+`</button>`+`</form>`+`<button class="swal2-input" onclick="turnon()">`+`<i class="far fa-eye">`+`</i>`+`</button>`+`<div>`+`<button class="swal2-input">`+`<i class="fab fa-google">`+`</i>`+`</button>`+`<button class="swal2-input">`+`<i class="fab fa-facebook-square">`+`</i>`+`</button>`+`</div>`,
   confirmButtonText: 'Sign in',
   focusConfirm: false,
   preConfirm: () => {
@@ -74,7 +74,9 @@ function Register(){
 new swal({
   title: 'Register Form',
   html: `<form method="POST" required>`+`<input type="text" id="login" class="swal2-input" placeholder="Username">
-  <input type="password" id="password" class="swal2-input" placeholder="Password"><input type="password" id="password" class="swal2-input" placeholder="Password">`+`</form>`+`<button class="swal2-input" onclick="turnon()">`+`<i class="far fa-eye">`+`</i>`+`</button>`,
+  <input type="password" id="password" class="swal2-input" placeholder="Password">
+  <input type="password" id="password" class="swal2-input" placeholder="Password">`+
+  `</form>`+`<button class="swal2-input" onclick="turnon()">`+`<i class="far fa-eye">`+`</i>`+`</button>`,
   confirmButtonText: 'Sign in',
   focusConfirm: false,
   preConfirm: () => {
@@ -91,7 +93,7 @@ new swal({
       Swal.showValidationMessage(`請你輸入電子郵件及密碼<br>Please enter login and password`)
     }
 
-    else{
+   /* else{
       Auth.signUp({
         username: reglogin,
         password: regpassword,
@@ -101,8 +103,8 @@ new swal({
       })
       /*.then((result: ISignUpResult) => {
        if(!result.userConfirmed){}
-      })*/
-    }
+      })
+    }*/
     return { login: login, password: password }
   }
 }).then((result) => {
