@@ -27,72 +27,28 @@ CodePen - Untitled Vue Version</title>
 <!-- partial:index.partial.html-->
 
 <!-- Navbar-->
-
 <nav class="navbar has-background-grey" id="top">
-
-<div class="navbar-brand">
-
-<div class="navbar-item image is-128x128">
-
-<a class="navbar-burger burger" onclick="onclick">
-
-<span>
-
- </span>
-
-<span>
-
- </span>
-
-<span>
-
-</span>
-
-</a>
-
-</div>
-
-</div>
-
-<div class="navbar-menu" id="navMenu">
-      <!-- navbar item-->
-      <div class="navbar-start">
-      <a class="navbar-item has-text-primary" href="">
-Horoscope</a>
-      <a class="navbar-item has-text-primary" href="">
-Astrology</a>
-      <div class="dropdown is active navbar-item">
-      <div class="dropdown-trigger">
-      <button class="button has-background-green-bis">
-      <span>
-1234565432</span>
-      </button>
+      <div class="navbar-brand">
+        <div class="navbar-item image is-128x128"><a class="navbar-burger burger"><span> </span><span> </span><span></span></a></div>
       </div>
-      <div class="dropdown-menu" id="dropdown-menu" role="menu">
-  </div>
+      <div class="navbar-menu" id="navMenu"><!--navbar item-->
+        <div class="navbar-start"><a class="navbar-item has-text-primary" href="">關於我們</a><a class="navbar-item has-text-primary" href="">等位?</a>
+          <div class="dropdown is active navbar-item">
+            <div class="dropdown-trigger">
+              <button class="button has-background-green-bis"><span>1234565432</span></button>
+            </div>
+            <div class="dropdown-menu" id="dropdown-menu" role="menu"> 
+              <div class="dropdown-content"><a class="dropdown-item" href="#">Dropdown item</a><a class="dropdown-item"></a>Other dropdown item</div>
+            </div>
+          </div><a class="navbar-item has-text-primary" href="">如何加入你的</a><a class="navbar-item has-text-primary" href="">Occult</a>
+        </div>
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="buttons"><a class="button is-danger"><strong>Register</strong></a><a class="button is-outlined is-success" id="login" onClick="Login()"><strong>Login</strong></a></div>
+          </div>
+        </div>
       </div>
-      <a class="navbar-item has-text-primary" href="">
-Predictions</a>
-      <a class="navbar-item has-text-primary" href="">
-Occult</a>
-      </div>
-      <div class="navbar-end">
-      <div class="navbar-item">
-      <div class="buttons">
-      <a class="button is-danger" id="register" onclick="Register()">
-      <strong>
-Register</strong>
-      </a>
-      <a class="button is-outlined is-success" id="login" onclick="Login()">
-      <strong>
-Login</strong>
-      </a>
-      </div>
-      </div>
-      </div>
-      </div>
-      </nav>
-      <!-- bootstrap carousel-->
+    </nav>      <!-- bootstrap carousel-->
       <section class="container-fluid">
       <div class="row">
       <div class="carousel slide app1" id="carouselBanner" data-bs-ride="carousel">
