@@ -78,20 +78,19 @@ new swal({
   confirmButtonText: 'Sign in',
   focusConfirm: false,
   preConfirm: () => {
-<<<<<<< HEAD
     const regemail = Swal.getPopup().querySelector('#email').value;
     const reglogin = Swal.getPopup().querySelector('#login').value;
     const regpassword = Swal.getPopup().querySelector('#password').value;
-=======
+
     const login = Swal.getPopup().querySelector('#login').value
     const password = Swal.getPopup().querySelector('#password').value
->>>>>>> 0c89f5a2de115f856e9bd5aff9f625df85cb633e
+
     if (!login){Swal.showValidationMessage(`請你輸入電子郵件<br>Please enter email`)}
     if (!password){Swal.showValidationMessage(`請你輸入密碼<br>Please enter password`)}
     if (!login && !password) {
       Swal.showValidationMessage(`請你輸入電子郵件及密碼<br>Please enter login and password`)
     }
-<<<<<<< HEAD
+
     else{
       Auth.signUp({
         username: reglogin,
@@ -104,9 +103,7 @@ new swal({
        if(!result.userConfirmed){}
       })*/
     }
-=======
     return { login: login, password: password }
->>>>>>> 0c89f5a2de115f856e9bd5aff9f625df85cb633e
   }
 }).then((result) => {
   //Swal.fire(`
