@@ -8,7 +8,7 @@ Auth.configure({
     userPoolWebClientId:'57a80fik1473v2up522vav7br2',
 })
 
-var cureentUserNAme: 
+var currentUserNAme: 
 
 function onResendConfirmationCode(){
  Auth.resend();
@@ -24,6 +24,6 @@ function onHostedUISignIn(){
 function onUserConfirmation(){}
 
 function onResendConfirmationCode(){
-    Auth.resendSignUp)
+    Auth.resendSignUp()
 }
 
