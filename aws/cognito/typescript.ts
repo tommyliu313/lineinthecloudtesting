@@ -3,8 +3,8 @@ import {CognitoUser, ISignUpResult} from 'amazon-cognito-identity-js'
 import { Auth } from 'aws-amplify'
 // Setup the configuration
 Auth.configure({
-    userPoolId:'',
-    userPoolWebClientId:'',
+    userPoolId:'us-east-1_dqiapzBbr',
+    userPoolWebClientId:'57a80fik1473v2up522vav7br2',
 })
 
 function onResendConfirmationCode(){
