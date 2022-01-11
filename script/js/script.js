@@ -37,7 +37,7 @@ new swal({
       Swal.showValidationMessage(`請你輸入電子郵件及密碼<br>Please enter login and password`)
     }
     return { login: login, password: password }
-}})
+}})})}
 
 /*外部資源連結*/
 $.ajax({
