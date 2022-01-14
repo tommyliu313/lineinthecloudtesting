@@ -8,6 +8,10 @@ Auth.configure({
     userPoolWebClientId:'57a80fik1473v2up522vav7br2',
 })
 
+<<<<<<< HEAD
+=======
+var currentUserNAme: 
+>>>>>>> c82930b47bd05e1760d895cc58c7fa059ab2bddd
 currentUserName = userData.username;
 if
 
@@ -24,6 +28,11 @@ function onHostedUISignIn(){
 
 function onUserConfirmation(){}
 
+<<<<<<< HEAD
+=======
+function onResendConfirmationCode(){
+    Auth.resendSignUp()
+>>>>>>> c82930b47bd05e1760d895cc58c7fa059ab2bddd
 function onSignUp(){
     let userinfo = {
         username: document.getElementById("login").value,
